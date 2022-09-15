@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+
+.main_container{
+	position: relative;
+}
+
+
+/*====================BARA DE NAVIGATIE===================*/
+
+
+
+
+.navbar{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+/*=================FUNDAL====================*/
+
+.banner_image{
+	background: url('imagini/dark-wallpapers.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 725px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#FUNCT{
+    background: url('imagini/dark-wallpapers.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+	color: #fb2274;
+}
+
+
+
+/*====================CONTINUT========================*/
+
+
+.functionare{
+	text-align: center;
+    padding: 5% 10%;
+}
+
+#func{
+    margin-bottom: 15px;
+	font-size: 24px;
+	line-height: 25px;
+	color: #a9a9a9;
+}
+
+
+
+
+
+.istoric{
+	background: #f5f5f5;
+	text-align: center;
+    padding: 5% 10%;
+}
+
+.container {
+    margin-top: 35px;
+    display: flex;
+	justify-content: space-between;
+	background: #f5f5f5;
+}
+
+#second{
+	margin-top: 0px;
+    display: flex;
+	justify-content: space-between;
+	background: #f5f5f5;
+}
+
+
+.container .container_1 {
+    width: 30%;
+}
+
+.container .container_1 img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+/*======================RESPONSIVE WEBSITE============================*/
+
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+
+}
